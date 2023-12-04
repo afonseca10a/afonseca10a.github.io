@@ -1,0 +1,53 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title> JS-HTML Integration </title>
+</head>
+
+<body>
+	<h1> JS Applications Opener -- Andy</h1>
+	<p> This is my fifth page HTML page with Javascript </p>
+	
+	<button onclick="option()"> Choice between 2 cars</button>
+		<script>
+		function option() {
+		var person = prompt ('please enter your name');
+		var usercar = prompt ('please enter the name of your car');
+		var carl = myCar(userCar);
+		document.getElementById("demo1").innerHTML = 'Hello' + person + '. That is a ' + carl;
+		}
+	
+		function myCar(x) {
+		if (x==='toyota' || x==='bmw')
+		return 'Cool cars';
+		else
+		return 'Not Cool car';
+	}
+	</script>
+	
+	<p id='demo1'> Car Choice is.... </p>
+	
+	<hr><br>
+	<hr><br>
+	
+	
+	
+	<button onclick="loop()"> Print out number from 1-10 </button>
+	
+		<script>
+		function loop(x) {
+		
+		var text = """;
+		var x = +prompt("What is the maximum you want to print?", '10')
+		for (var i=0; i < x; i++){
+		text += i +;
+		}
+		
+		document.getElementById("demo2").innerHTML = 'The numbers are ' + number;
+		}
+		</script>
+		
+	<p id='demo2'> Numbers you requested.... </p>
+</body>
+</html>
+

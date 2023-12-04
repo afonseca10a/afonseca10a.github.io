@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head> Review of HTML tags </head>
+<title> About me </title>
+<body>
+<h1> This is my first game</h1>
+<nav>
+<a href='p1_aboutme.html'> AboutMe </a>
+<a href='p2_hobby.html'> Hobby </a>
+<a href='p3_form.html'> Contact Me </a>
+</nav>
+<h2> Personal </h2>
+<p> I work at mather High School, I have 3 kids.
+I love to watch soccer and my favorite team is Arrgentina
+-</p>
+<br>
+<p> My favorite dream car is a Ferrari </p>
+<img arc 'ferrari.jiff' alt='My Car height='200' width='400'> 

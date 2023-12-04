@@ -1,0 +1,41 @@
+<!Doctype HTML>
+<html>
+<head>
+	<title> JS-HTML Integration </title>
+</head>
+
+<body>
+	<h1> second page of JS by Andy</h1>
+	<p> This is my third page HTML page with Javascript </p>
+	
+	<button onclick="greeting()"> Today's greeting is</button>
+		<script>
+		function greeting() {
+		var person = prompt ('please enter your ma,e');
+		document.getElementById("demo1".innerHTML = 'Hello' + person + '! How are you today?';
+	}
+	</script>
+	
+	<p id 'demo'> Greetings for today is.... </p>
+	
+	<hr><br>
+	
+	
+	<button onclick="diffDate()"> Difference between Jun 15, 2021 and today is </button>
+	
+		<script>
+		function diffDate() {
+		var nDate = new Date()                      //current date
+		var oDate = new Date('Enter you date', 'yyyy-mm-dd');         //assignedd custom date
+		var difference = nDate.getTime() - oDate.getTime();
+		console.log(difference);
+		var diff_Days = diffence/(1000*60*60*24);
+		
+		document.getElementById("demo2").innerHTML = 'The number of days between today and your date is is '+ diff_Days.toFix(1);
+		}
+		</script>
+		
+	<p id= 'demo2'> Difference is in days.... </p>
+	
+</body>
+</html>
